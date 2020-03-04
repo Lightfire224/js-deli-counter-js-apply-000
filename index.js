@@ -5,7 +5,7 @@ function takeANumber(katzDeliLine, name) {
   
   return "Welcome, " + name + ". You are number " + katzDeliLine.length + " in line."
   
-  return `Welcome, $(name) `
+  return `Welcome, $(name). You are number $(katzDeliLine.length) in line.`
   
 }
 
